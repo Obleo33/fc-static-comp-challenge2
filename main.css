@@ -4,24 +4,107 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
-  background-image: url('')
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 15px;
   color: #000000;
-  margin-top: 20px;
+  margin-top: 15px;
+  align-items: center;
 }
-h1 span{
-  font-family: 'Rubik Mono One', sans-serif;
+
+h1 span {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+.title-logo{
+  width: 75px;
+  background-color: none;
+  vertical-align: middle;
+}
+
+.nav {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 50px;
+  margin: 5px 10px;
+}
+
+.presented-by-banner {
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  height: 30px;
+  width: 80%;
+  background-color: #FFF2BF;
+  border-radius: 2px;
+  margin: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+}
+
+.jedi-logo {
+
+  width: 40px;
+  vertical-align: middle;;
+}
+
+.all-star-cards {
+  width: 80%;
+}
+
+.hero-card {
+  background-color: #FFfffF;
+}
+
+.hero-banner {
+  height: 25px;
+  background-color: #C1C1C1;
+  margin-bottom: 10px;
+}
+
+.hero-picture {
+  height: 125px;
+  width: 125px;
+  margin: 20px 20px;
+  border-radius: 50%;
+  border: 3px solid #C1C1C1;
+}
+
+hr{
+  align: center;
+  width: 95%;
+}
+
+.card-footer {
+  font-size: 25px;
+  margin: 20px 20px;
+}
+
+.luke-pic {
+  background-image: url();
 }
 
 
-title {
-  font-family: 'Rubik Mono One', sans-serif;
+@media screen and (min-width:450px) {
+
+
 }
