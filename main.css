@@ -43,7 +43,7 @@ h1 span {
 }
 
 .nav-icon {
-  width: 50px;
+  width: 30px;
   margin: 5px 10px;
 }
 
@@ -73,20 +73,56 @@ h1 span {
 
 .hero-card {
   background-color: #FFfffF;
+  margin: 40px 5px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .hero-banner {
+  padding: 5px;
   height: 25px;
   background-color: #C1C1C1;
-  margin-bottom: 10px;
+  color: #585858;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.hero-banner p {
+  margin: 5px 0;
+}
+
+.hero-card h3 {
+  font-size: 40px;
+  color: #910000;
 }
 
 .hero-picture {
-  height: 125px;
-  width: 125px;
-  margin: 20px 20px;
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
   border-radius: 50%;
   border: 3px solid #C1C1C1;
+  background-position: center;
+  background-size: cover;
+}
+
+.luke-pic {
+  background-image: url(images/luke-headshot.jpg);
+}
+
+.han-pic {
+  background-image: url(images/han-headshot.jpg);
+}
+
+.leia-pic {
+  background-image: url(images/leia-headshot.jpg);
+}
+
+.chewie-pic {
+  background-image: url(images/chewbacca-headshot.png);
+}
+
+.hero-stats {
+  margin: 10px 20px;  
 }
 
 hr{
@@ -97,10 +133,18 @@ hr{
 .card-footer {
   font-size: 25px;
   margin: 20px 20px;
+
 }
 
-.luke-pic {
-  background-image: url();
+.hero-card-footer {
+  text-align: center;
+}
+
+.hero-card-footer p img {
+  height: 20px;
+  vertical-align: middle;
+  margin: 10px 10px;
+
 }
 
 
