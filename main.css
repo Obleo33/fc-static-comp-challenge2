@@ -73,13 +73,12 @@ h1 span {
 
 .hero-card {
   background-color: #FFfffF;
-  margin: 40px 5px;
+  margin: 20px 5px;
   font-family: 'Rubik', sans-serif;
 }
 
 .hero-banner {
   padding: 5px;
-  height: 25px;
   background-color: #C1C1C1;
   color: #585858;
   text-align: center;
@@ -91,7 +90,7 @@ h1 span {
 }
 
 .hero-card h3 {
-  font-size: 40px;
+  font-size: 80px;
   color: #910000;
 }
 
@@ -122,7 +121,7 @@ h1 span {
 }
 
 .hero-stats {
-  margin: 10px 20px;  
+  margin: 10px 20px;
 }
 
 hr{
@@ -148,7 +147,31 @@ hr{
 }
 
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:650px) {
+
+  .all-star-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;;
+  }
+
+  .hero-card {
+    margin: 10px 5px;
+    width: 48%;
+
+  }
+
+  .hero-banner {
+    font-size: 10px;
+  }
+
+  .hero-picture {
+    height: 150px;
+    width: 150px;
+    margin: 10px 15px 10px 10px;
+    float: left;
+  }
 
 
 }
